@@ -58,7 +58,6 @@ rectangle Система {
 ![2](https://user-images.githubusercontent.com/90749103/229521524-06e654d7-3475-4ac8-8c26-bf9e14a7e7f4.png)
 
 ```
-Диаграмма классов
 @startuml
 class Эксперт{
 +Паспортные данные
