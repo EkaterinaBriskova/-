@@ -55,7 +55,7 @@ rectangle Система {
 @enduml
 
 ```
-[1](https://user-images.githubusercontent.com/90749103/диаграммы/2.png)
+[1](https://user-images.githubusercontent.com/диаграммы/2.png)
 
 ```
 Диаграмма классов
