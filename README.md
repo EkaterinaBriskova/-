@@ -55,7 +55,8 @@ rectangle Система {
 @enduml
 
 ```
-![Alt text](диаграммы/2.png)
+![1](https://user-images.githubusercontent.com/диаграммы/2.png)
+
 
 
 ```
