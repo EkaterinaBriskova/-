@@ -55,7 +55,7 @@ rectangle Система {
 @enduml
 
 ```
-![2](https://user-images.githubusercontent.com/90749103/228903594-21f3ed13-3d28-4063-9bfd-51d4dd4.png)
+![1](https://user-images.githubusercontent.com/90749103/228903594-21f3ed13-3d28-4063-9bfd-51d4dd4.png)
 
 
 ```
@@ -109,5 +109,5 @@ class Выполнено{
 Выполнено --> ВыдачаГранта
 
 ```
-![1](https://user-images.githubusercontent.com/90749103/228903511-2f07ff60-7900-4260-9e43-feb364c0cf87.png)
+![2](https://user-images.githubusercontent.com/90749103/228903511-2f07ff60-7900-4260-9e43-feb364c0cf87.png)
 
