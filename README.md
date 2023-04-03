@@ -55,7 +55,7 @@ rectangle Система {
 @enduml
 
 ```
-[1](https://user-images.githubusercontent.com/диаграммы/2.png)
+![2](https://user-images.githubusercontent.com/90749103/229521524-06e654d7-3475-4ac8-8c26-bf9e14a7e7f4.png)
 
 ```
 Диаграмма классов
@@ -108,5 +108,5 @@ class Выполнено{
 Выполнено --> ВыдачаГранта
 
 ```
-![2](https://user-images.githubusercontent.com/90749103/228903511-2f07ff60-7900-4260-9e43-feb364c0cf87.png)
+![1](https://user-images.githubusercontent.com/90749103/228903511-2f07ff60-7900-4260-9e43-feb364c0cf87.png)
 
