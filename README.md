@@ -55,7 +55,7 @@ rectangle Система {
 @enduml
 
 ```
-![1](https://user-images.githubusercontent.com/90749103/228903594-21f3ed13-3d28-4063-9bfd-51d4dd4.png)
+![Alt text](диаграммы/2.png)
 
 
 ```
