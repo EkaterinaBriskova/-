@@ -109,3 +109,60 @@ class Выполнено{
 ```
 ![1](https://user-images.githubusercontent.com/90749103/228903511-2f07ff60-7900-4260-9e43-feb364c0cf87.png)
 
+# Практика 2
+
+```
+@startuml
+title Информационная система технической экспертизы: диаграмма последовательности
+skinparam backgroundcolor AntiqueWhite/Gold
+participant Соискатель
+participant Заявка
+participant Эксперт 
+participant Держатель_фонда
+participant Грант
+activate Соискатель
+Соискатель -> Заявка: подает заявку
+activate Заявка
+Заявка -> Эксперт : Выдает заявку
+deactivate Соискатель
+activate Эксперт 
+Эксперт -> Заявка:Оценивает заявку
+Заявка-> Держатель_фонда:Заявка одобрена
+deactivate Заявка
+activate Держатель_фонда
+Держатель_фонда -> Грант:Принимает решение о выдаче грантов
+deactivate Держатель_фонда
+activate Грант
+Грант-> Соискатель:Выдает грант
+deactivate Эксперт 
+activate Соискатель
+@enduml 
+
+
+```
+![3](https://user-images.githubusercontent.com/90749103/230009514-26a74119-2cde-485e-aaf2-a51ba4fe1fe7.png)
+
+```
+@startuml
+left to right direction
+title Система технической экспертизы: диаграмма развертывания
+skinparam backgroundcolor AntiqueWhite/Gold
+database Заявка
+node ПК_Эксперт
+node ПК_Соискатель
+node ПК_Держатель_фонда
+node Грант
+node Система_экспертизы
+
+ПК_Эксперт - Заявка: Проверяют
+ПК_Соискатель - Заявка: Подают
+ПК_Эксперт - Система_экспертизы: Используют
+ПК_Держатель_фонда - Заявка: Оценивает
+ПК_Держатель_фонда - Грант: принимает решение
+Грант - ПК_Соискатель: Выдает грант
+@enduml
+
+```
+![4](https://user-images.githubusercontent.com/90749103/230009572-e9958a7e-6609-4a9c-add0-32f196de38e1.png)
+
+
