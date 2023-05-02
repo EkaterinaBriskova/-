@@ -214,8 +214,7 @@ main *--> Variant
 main --Game
 @enduml
 ```
-
-![]<img width="672" alt="5" src="https://user-images.githubusercontent.com/90749103/235784363-54e507ab-6e44-4410-93b3-247e59987c20.png">
+<img width="672" alt="5" src="https://user-images.githubusercontent.com/90749103/235784714-9753b7a9-60af-4656-8193-5e01059aabf0.png">
 
 # Шаблонный метод
 ```
@@ -269,5 +268,6 @@ RussianFlag -  Austria
 @enduml
 
 ```
-![Alt text](скриншоты/6.png)
+![6](https://user-images.githubusercontent.com/90749103/235784667-f21b4816-443f-405a-880c-b4fcc21b3520.png)
+
 
