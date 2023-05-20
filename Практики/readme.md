@@ -163,3 +163,69 @@ node Система_экспертизы
 
 ```
 ![Alt text](диаграммы/4.png)
+
+# Практика 4
+```
+@startuml
+interface Iterator.Iterator {
++ boolean hasNext()
++ Object next()
+}
+interface Iterator.Aggregate {
++ Create Iterator()
++ Iterator()
+}
+class Iterator.Concrete_Iterator {
++ {static} void hasNext():Next
+}
+class Iterator.Concrete_Aggregate {
++ {static} void Create Iterator():Iterator
+}
+
+Iterator.Iterator <|..|> Iterator.Aggregate
+Iterator.Aggregate ..> Iterator.Concrete_Iterator
+Iterator.Concrete_Iterator ..> Iterator.Iterator
+Iterator.Concrete_Aggregate ..> Iterator.Aggregate
+@enduml
+```
+![iterator](https://github.com/EkaterinaBriskova/TMP/assets/90749103/485f12a8-801e-43e6-bd40-a0fa2fbf54c1)
+
+```
+@startuml
+interface Visitor.Studying_In_Institute {
++ void accept()
++ void teaching()
++ void studying()
+}
+class Visitor.Instructor {
++ void visit()
++ void teaching()
+
+}
+class Visitor.Student {
++ void visit()
++ void studying()
+}
+class Visitor.SDE {
++ void create(ProjectClass)
++ void create(DataBase)
++ void create(Test)
+}
+class Visitor.STL {
++ void beWritten(Developer)
+}
+class Visitor.DSA {
++ {static} void main(String[])
+}
+
+Visitor.DSA <|.. Visitor.Student
+Visitor.DSA <|.. Visitor.Instructor
+Visitor.SDE <|.. Visitor.Student
+Visitor.SDE <|.. Visitor.Instructor
+Visitor.STL <|.. Visitor.Student
+Visitor.STL <|.. Visitor.Instructor
+Visitor.Studying_In_Institute <|.. Visitor.Instructor
+Visitor.Studying_In_Institute <|.. Visitor.Student
+@enduml
+```
+![visitor](https://github.com/EkaterinaBriskova/TMP/assets/90749103/31431877-568d-45d4-b7ff-124793da0d13)
